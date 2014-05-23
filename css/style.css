@@ -266,3 +266,70 @@ table {
   display: none;
 }
 /*colors*/
+/*Grid*/
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+.containerNarrow {
+  margin: 0 auto;
+  width: 767px;
+}
+.oneHalf {
+  float: left;
+  margin-right: 2%;
+  width: 49%;
+}
+.oneThird {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+}
+.twoThirds {
+  float: left;
+  margin-right: 2%;
+  width: 66%;
+}
+.oneFourth {
+  float: left;
+  margin-right: 2%;
+  width: 23.5%;
+}
+.gridFirst {
+  clear: both;
+}
+.gridLast {
+  margin-right: 0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container,
+  .containerNarrow {
+    width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container,
+  .containerNarrow {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .mobileNo {
+    transition: all ease-in 150ms;
+    display: none;
+  }
+  .mobileYes {
+    display: block;
+  }
+}
+.header {
+  background-color: #272b34;
+  overflow: auto;
+}
+a {
+  color: #c60000;
+}
