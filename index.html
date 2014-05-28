@@ -23,7 +23,7 @@
         <div class="oneHalf">
             <h1>Aceites & Lubricantes Aguilar</h1>
         </div><!-- /oneHalf -->
-        <div class="oneHalf gridLast">
+        <div class="oneHalf gridLast right">
             <h2>+52 (656) 630 2889<br>
                 <a href="mailto:ventas@lubricantesaguilar.com">ventas@lubricantesaguilar.com</a>
             </h2>
@@ -32,26 +32,78 @@
 
     </div><!-- /container -->
 </header>
-<div class="slider">
-
+<div class="pageTitle fadeIn flexslider preload">
+    <ul class="slides">
+        <li>
+            <div class="container">
+                <div class="oneHalf">
+                    <img src ="img/slide1.jpg" alt="Akron Ciduad Juarez Chihuahua" title="Akron Ciduad Juarez Chihuahua">
+                </div><!-- /oneHalf -->
+                <div class="oneHalf gridLast">
+                    <h3>Productos Industrales:</h3>
+                    <ul>
+                        <li>Aceites Industriales</li>
+                        <li>Lubricantes Sinteticos</li>
+                        <li>Grasas</li>
+                    </ul>
+                </div><!-- /oneHalf gridLast -->
+            </div><!-- /container -->
+        </li>
+        <li>
+            <div class="container">
+                <div class="oneHalf">
+                    <iframe width="100%" height="315" src="//www.youtube.com/embed/Jo5fPXLlko4" frameborder="0" allowfullscreen></iframe>
+                </div><!-- /oneHalf -->
+                <div class="oneHalf gridLast">
+                    <h3>Productos Industrales:</h3>
+                    <ul>
+                        <li>Aceites Industriales</li>
+                        <li>Lubricantes Sinteticos</li>
+                        <li>Grasas</li>
+                    </ul>
+                </div><!-- /oneHalf gridLast -->
+            </div><!-- /container -->
+        </li>
+    </ul>
 </div><!-- /slider -->
 
 
+<div class="certificationsBar">
+    <div class="container">
+        <ul class="brands">
+            <li class="bmwLogo"></li>
+            <li class="mercedesBenzLogo"></li>
+            <li class="PorcheLogo"></li>
+            <li class="VWLogo"></li>
+            <li class="VolvoLogo"></li>
+            <li class="CumminsLogo"></li>
+        </ul>
+    </div><!-- /container -->
+</div><!-- /certificationsBar -->
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+         // Remove Preload
+        jQuery(function cleanBody(){
+            var firstSlide = jQuery('.flexslider li:first-child');
+            if ( firstSlide.is('.flex-active-slide') ){
+                jQuery('.flexslider').removeClass('preload');
+            } else {
+                setTimeout(cleanBody, 500);
+            }
+        });
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+        jQuery('.flexslider').flexslider({
+            prevText: " ",
+            nextText: " ",
+            pauseOnHover: true
+        });
+
         </script>
+
     </body>
 </html>
