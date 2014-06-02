@@ -42,6 +42,94 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/img\/backgroundAkron.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46032,
+		"inputAbbreviatedPath": "\/img\/backgroundAkron.jpg",
+		"outputAbbreviatedPath": "\/img\/backgroundAkron.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/backgroundAkronB.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44934,
+		"inputAbbreviatedPath": "\/img\/backgroundAkronB.jpg",
+		"outputAbbreviatedPath": "\/img\/backgroundAkronB.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/backgroundAkronC.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94275,
+		"inputAbbreviatedPath": "\/img\/backgroundAkronC.jpg",
+		"outputAbbreviatedPath": "\/img\/backgroundAkronC.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/productosAutomobiles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28068,
+		"inputAbbreviatedPath": "\/img\/productosAutomobiles.jpg",
+		"outputAbbreviatedPath": "\/img\/productosAutomobiles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/productosGrasasLubricantes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21008,
+		"inputAbbreviatedPath": "\/img\/productosGrasasLubricantes.jpg",
+		"outputAbbreviatedPath": "\/img\/productosGrasasLubricantes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/productosGrasasTransporte.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22538,
+		"inputAbbreviatedPath": "\/img\/productosGrasasTransporte.jpg",
+		"outputAbbreviatedPath": "\/img\/productosGrasasTransporte.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ProductosIndustria.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14839,
+		"inputAbbreviatedPath": "\/img\/ProductosIndustria.jpg",
+		"outputAbbreviatedPath": "\/img\/ProductosIndustria.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/productosMexicanaDeLubricantes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10195,
+		"inputAbbreviatedPath": "\/img\/productosMexicanaDeLubricantes.jpg",
+		"outputAbbreviatedPath": "\/img\/productosMexicanaDeLubricantes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/slide1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
